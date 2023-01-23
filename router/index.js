@@ -4,5 +4,6 @@ const router = express.Router()
 const userRouter = require('./userRouter')
 
 module.exports = {
-    userRouter
+    userRouter,
+    ProductRouter
 }
